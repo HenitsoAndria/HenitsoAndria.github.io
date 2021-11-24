@@ -1,0 +1,97 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+li {
+    font-size: 30px;
+    margin-left: 20px;
+    list-style: none;
+    border: 5px solid orange;
+    border-radius: 13px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+}
+
+header li:hover {
+    background-color: rgb(128, 128, 128);
+    color: rgb(250, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header li::after {
+    color: red;
+}
+
+nav {
+    float: right;
+    margin-top: -85px;
+}
+
+#up {
+    position: relative;
+    width: 100%;
+    border: none;
+    top: 10px;
+}
+
+span {
+    color: darkorange;
+}
+
+#i {
+    color: aliceblue;
+    position: absolute;
+    top: 36%;
+    right: 17%;
+    transform: translate(3%, -10%);
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: #000000 1px 1px, #0a0a0a -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.anime,
+.game,
+.manga {
+    border: 10px double rgb(105, 97, 97);
+    padding: 10px;
+}
+
+h2 {
+    color: crimson;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(238, 157, 5);
+    text-decoration: overline;
+}
+
+h4 {
+    color: rgb(32, 32, 248);
+}
+
+main img {
+    width: 1000px;
+    border: 15px double black;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center
+}
+
+.end {
+    display: inline-flex;
+}
+
+.end div {
+    margin-left: 100px;
+}
+
+footer img {
+    width: 100px
+}

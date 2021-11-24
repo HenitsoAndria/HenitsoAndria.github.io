@@ -1,0 +1,78 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(253, 255, 255);
+    margin: 0px;
+}
+
+header p {
+    margin-top: 50px;
+}
+
+#photo {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+legend {
+    font-size: 25px;
+    color: brown;
+}
+
+fieldset {
+    border: 10px double rgb(26, 26, 26);
+    background-color: rgb(228, 228, 228);
+}
+
+footer {
+    display: inline;
+}
+
+img {
+    width: 50px;
+}
+
+.Lois {
+    text-align: center;
+    display: inline-flex;
+}
+
+.Lois div {
+    width: 120px;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+div img {
+    width: 100px;
+}
+
+footer {
+    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+}
+
+.fin {
+    text-align: center;
+    display: inline-flex;
+}
+
+section {
+    border-top: 1px solid red
+}
+
+.fin div {
+    margin: 1px 125px;
+}
+
+.foot {
+    text-align: center;
+}
