@@ -65,10 +65,6 @@ footer {
     display: inline-flex;
 }
 
-section {
-    border-top: 1px solid red
-}
-
 .fin div {
     margin: 1px 125px;
 }
